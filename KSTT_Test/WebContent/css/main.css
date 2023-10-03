@@ -1,0 +1,234 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*CSS for header*/
+#company-name {
+	color: #282923;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.navbar img {
+	width: 65px;
+	height: 65px;
+}
+/*CSS for phonenumber*/
+.phonenumber {
+	border:solid; 
+	border-radius: 30px;
+	background-color: #FFFFFF;
+}
+.phonenumber tr{
+	border: 1px solid black;
+}
+.phonenumber td{
+	border: 1px solid #607ee0;
+ 	padding: 10px 30px;
+  	color: #FFF;
+}
+/*CSS for left bar*/
+#left-bar {
+	height: auto;	
+}
+.left-bar-admin {
+	background-color: #BFF2D1;
+}
+.nav-item span{
+	font-weight: bold;
+	color: black;
+	font-size: 15px;
+}
+.nav-link img {
+	width: 15px;
+	height: 15px;
+}
+.nav-item:hover span{
+	color: #6CB33E;
+	transition: 0.4s;
+}
+.nav-item:hover img{
+	box-shadow: 2px 2px 5px; 
+	transition: 0.4s;
+}
+
+/*CSS for tittle*/
+
+
+/*CSS for insert box*/
+.insert-button{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+.insert-button img{
+	width: 20px;
+	height: 20px;
+	padding-bottom: 3px;
+}
+
+/*CSS for article*/
+.article{
+	margin-top: 5px;
+}
+.article input {
+	display: inline-block;
+	width: 100%;
+}
+.article select {
+	display: inline-block;
+	width: 100%;
+}
+/*CSS for table*/
+.student-table {
+	text-align: center;
+}
+
+/*CSS for search box*/
+.article .btn-primary {
+	font-weight: bold;
+	color: black;
+	width: auto;
+	font-size: 12px;
+}
+/*CSS for pagination*/
+.web-pagination {
+	float: right;
+}
+.page-link{
+	color: black;
+}
+/*CSS for footer*/
+.card-footer{
+	font-size: 14px;
+}
+.card-footer span {
+	color: #FFFFFF;
+}
+/*CSS for phonenumber*/
+.phonenumber img {
+	width: 25px;
+	height: 20px;
+}
+@-webkit-keyframes my {
+	0% { color: #000000; } 
+	50% { color: #fff;  } 
+	100% { color: #000000;  } 
+}
+@-moz-keyframes my { 
+	0% { color: #000000;  } 
+	50% { color: #fff;  }
+	100% { color: #000000;  } 
+}
+@-o-keyframes my { 
+	0% { color: #000000; } 
+	50% { color: #fff; } 
+	100% { color: #000000;  } 
+}
+@keyframes my { 
+	0% { color: #000000;  } 
+	50% { color: #fff;  }
+	100% { color: #000000;  } 
+} 
+.text {
+	font-size:15px;
+	font-weight:bold;
+	-webkit-animation: my 700ms infinite;
+	-moz-animation: my 700ms infinite; 
+	-o-animation: my 700ms infinite; 
+	animation: my 700ms infinite;
+}
+
+/*-----CSS SC006-----*/
+.welcome {
+	display: flex;
+}
+.welcome span {
+	color: red; 
+	font-size: 50px; 
+	font-weight: bold;
+	text-align: center;
+}
+.welcome-rightbar img {
+	width: 100%;
+	height: 800px;
+}
+.welcome-main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 150px;
+}
+.welcome-main img {
+	height: 200px;
+	width: 450px;
+}
+/*-----CSS SC007-----*/
+.article-1 label {
+	font-size: 20px;
+}
+.article-1 {
+	height: 600px;
+	padding-top: 100px;
+	padding-left: 80px;
+}
+.article-1 .form-control {
+	width: 65%;
+	display: inline-block;
+	margin-left: 50px;
+}
+.article-button {
+	display: flex;
+	justify-content: space-around;
+}
+.article-button .back {
+	background-color: #9CE5A8;
+}
+.article-button .back:hover {
+	background-color: #24E83E;
+	transition: 0.4s;
+}
+.article-button .reset {
+	background-color: #E87A7A;
+}
+.article-button .reset:hover {
+	background-color: #DE2424;
+	transition: 0.4s;
+}
+.article-button .done {
+	background-color: #93BBD2;
+}
+.article-button .done:hover {
+	background-color: #0F90D8;
+	transition: 0.4s;
+}
+/*-----CSS SC008-----*/
+
+/*-----CSS SC009-----*/
+
+/*-----CSS SC010-----*/
+
+/*-----CSS SC051-----*/
+.left-bar-student {
+	background-color: #7EB5D7;
+}
+.left-bar-student span {
+	color: #FFFFFF;
+}
+.nav-item-student:hover span {
+	color: #FDF40F;
+	transition: 0.4s;
+}
+.nav-item-student:hover img{
+	box-shadow: 2px 2px 5px; 
+	transition: 0.4s;
+}
+/*-----CSS SC016-----*/
+.backbutton .btn {
+	background-color: #9CE5A8;
+}

@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#company-name {
+	color: #282923;
+	font-weight: bold;
+    font-size: 16px;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;
+}
+
+.navbar{
+    background-color:  #77E39D;
+}
+
+@-webkit-keyframes my {
+	0% { color: #000000; } 
+	50% { color: #fff;  } 
+	100% { color: #000000;  } 
+}
+@-moz-keyframes my { 
+	0% { color: #000000;  } 
+	50% { color: #fff;  }
+	100% { color: #000000;  } 
+}
+@-o-keyframes my { 
+	0% { color: #000000; } 
+	50% { color: #fff; } 
+	100% { color: #000000;  } 
+}
+@keyframes my { 
+	0% { color: #000000;  } 
+	50% { color: #fff;  }
+	100% { color: #000000;  } 
+} 
+.text {
+	font-size:15px;
+	font-weight:bold;
+	-webkit-animation: my 700ms infinite;
+	-moz-animation: my 700ms infinite; 
+	-o-animation: my 700ms infinite; 
+	animation: my 700ms infinite;
+}
+
+/*CSS for phonenumber*/
+.phonenumber {
+	border:solid; 
+	border-radius: 30px;
+	background-color: #FFFFFF;
+}
+.phonenumber tr{
+	border: 1px solid black;
+}
+.phonenumber td{
+	border: 1px solid #607ee0;
+ 	padding: 10px 30px;
+  	color: #FFF;
+}
+#left-bar{
+    height: auto;
+}
+
+.left-bar-admin {
+	background-color: #BFF2D1;
+}
+
+.nav-item span{
+	font-weight: bold;
+	color: black;
+	font-size: 15px;
+}
+.nav-item:hover span{
+	color: #6CB33E;
+	transition: 0.4s;
+}
+.nav-item:hover img{
+	box-shadow: 2px 2px 5px; 
+	transition: 0.4s;
+}
+.nav-link img {
+	width: 25px;
+	height: 25px;
+}
+/*CSS for article*/
+.article{
+	margin-top: 5px;
+}
+.article input {
+	display: inline-block;
+	width: 100%;
+}
+.article select {
+	display: inline-block;
+	width: 100%;
+}
+
+/*CSS for footer*/
+.card-footer{
+	font-size: 14px;
+}
+.card-footer span {
+	color: #FFFFFF;
+}
+
+.title{
+	border-bottom: solid black 2px;
+	font-size: 30px;
+	font-weight: normal;
+}

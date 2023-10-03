@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*CSS for header*/
+#company-name {
+	color: #282923;
+	font-weight: bold;
+}
+
+.navbar img {
+	width: 120px;
+	height: 70px;
+}
+/*CSS for phonenumber*/
+.phonenumber tr {
+	border: 1px solid black;
+}
+
+.phonenumber td {
+	border: 1px solid #607ee0;
+	padding: 10px 30px;
+	color: #FFF;
+}
+/*CSS for left bar*/
+#left-bar {
+	height: auto;
+	background-color: #BFF2D1;
+}
+
+.nav-item span {
+	font-weight: bold;
+	color: black;
+	font-size: 20px;
+}
+
+.nav-link img {
+	width: 28px;
+	height: 28px;
+}
+
+.nav-item:hover span {
+	color: red;
+	transition: 0.4s;
+}
+
+.nav-item:hover img {
+	box-shadow: 2px 2px 5px;
+	transition: 0.4s;
+}
+
+/*CSS for tittle*/
+.title {
+	border-bottom: solid black 2px;
+	padding: 5px 0px 15px;
+}
+
+.title a {
+	color: black;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+/*CSS for insert box*/
+.insert-button {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+/*CSS for article*/
+.article {
+	margin-top: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.article input {
+	display: inline-block;
+	width: 100%;
+}
+
+.article select {
+	display: inline-block;
+	width: 100%;
+}
+/*CSS for table*/
+.student-table {
+	text-align: center;
+}
+
+/*CSS for search box*/
+.article .btn-primary {
+	width: 50%;
+	font-size: 13px;
+}
+
+/*CSS for pagination*/
+.web-pagination {
+	display: flex;
+	justify-content: center;
+}
+
+.page-link {
+	color: black;
+}
+/*CSS for footer*/
+.card-footer {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.card-footer span {
+	color: #FFFFFF;
+}

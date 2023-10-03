@@ -1,0 +1,139 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+
+#main-page {
+	width: 800px;
+	height: 800px;
+	margin: auto;
+	background-color: #F5F7FB;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+/*CSS for img*/
+#picture {
+	grid-column: span 1;
+}
+img {
+	height: 100%;
+	width: 100%;
+}
+
+/*CSS for login form*/
+#login {
+	grid-column: span 3;
+	display: grid;
+	grid-template-rows: repeat(10, 1fr);
+	grid-template-columns: repeat(10, 1fr);
+}
+#login-form {
+	grid-column-start: 3;
+	grid-column-end: 9;
+	grid-row-start: 3;
+	grid-row-end: 9;
+	background-color: #FFFFFF;
+	box-shadow: 0px 0px 20px 1px;
+}
+
+/*CSS form for User*/
+#login-box-1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+#login-box-2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#login-box-2 label {
+	font-weight: bold;
+}
+.btn {
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#btn-warning{
+	color: #FFFFFF;
+}
+#email {
+	background-color: #EFEFEF;
+}
+#password {
+	background-color: #EFEFEF;
+}
+#rm-pass {
+	display: inline-block;
+	margin-bottom: 25px;
+}
+#forgot-link {
+	margin-left: 70px;
+}
+
+/*CSS for ICON*/
+form {
+	position: relative;
+}
+.fa-facebook-f {
+	position: absolute;
+	margin-left: -255px;
+	margin-top: 15px;
+	color: #FFFFFF;
+}
+.fa-google {
+	position: absolute;
+	margin-left: -255px;
+	margin-top: 15px;
+	color: #FFFFFF;
+}
+
+/*-----------FORGOT PASSWORD PAGE----------------*/
+#forgot-form {
+	grid-column-start: 3;
+	grid-column-end: 9;
+	grid-row-start: 4;
+	grid-row-end: 8;
+	background-color: #FFFFFF;
+	box-shadow: 0px 0px 20px 1px;
+}
+#phone {
+	background-color: #EFEFEF;
+	width: 88%;
+	float: right;
+	margin-bottom: 20px;
+}
+.fa-mobile {
+	font-size: 25px;
+	padding-top: 8px;
+}
+.forgot1 {
+	color: black;
+}
+h6 {
+	text-align: center;
+}
+
+/*-----------OTP PAGE----------------*/
+#otp1 {
+	color: red;
+	margin-left: 60px;
+}
+.card-body {
+	display: flex;
+	justify-content: space-evenly;
+}
+.card-body input {
+	width: 50px;
+	background-color: #EFEFEF;
+}
+
+/*-----------PASSWORD CHANGE PAGE----------------*/
